@@ -1,0 +1,61 @@
+header{
+    background-image: url(img/banner.jpg);
+    min-height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header h1{
+    background-color: rgba(0, 0, 0, 0.42);
+    color:white;
+    text-align: center;
+}
+.container-fluid{
+    margin: 0 auto;
+    background-color: lightgray;
+    text-align: justify;
+}
+
+.center{
+    text-align: center;
+}
+
+.kicsi img{
+    width: 100%;    
+    margin-bottom: 20px;
+}
+
+.igen{
+    width: 90%;
+    margin:auto;
+    background-color: white;
+    padding: 10px;
+}
+.row{
+    padding: 10px;
+}
+.nem{
+    border: 1px solid black;
+    border-radius: 3px;
+    margin: 10px;
+    padding: 0; 
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(19, 16, 16);
+    color: white;
+    height: 50px;
+}
+
+h4{
+    border-bottom: 2px black solid;
+    margin: 10px;
+}
+i{
+    font-size: xx-small;
+}
